@@ -9,9 +9,8 @@ import string
 import threading
 import re
 
-def print_banner():
-    banner = """\
-        
+def print_banner(self, moduleText=None):
+        print("""
  ▄▄▄▄    ▄▄▄       ▄████▄   ██ ▄█▀ ▄▄▄▄    ▒█████  ▒██   ██▒
 ▓█████▄ ▒████▄    ▒██▀ ▀█   ██▄█▒ ▓█████▄ ▒██▒  ██▒▒▒ █ █ ▒░
 ▒██▒ ▄██▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒██▒ ▄██▒██░  ██▒░░  █   ░
@@ -24,11 +23,12 @@ def print_banner():
       ░           ░                     ░                   
 
 by 0x1772.
+    """);
 
-type <help> for usage information!\n\n"""
-    for line in banner:
-        term.output(text.blue(line)) 
+        if (moduleText):
+            print("MODULE\n" + str(moduleText))
 
+        print('\n\n\n') 
 
 
 def function(Optiox):
@@ -39,6 +39,6 @@ def function(Optiox):
     else:
         print("Please type an available function")
 
-function(input('Choose Option:'))
+##function(input('Choose Option:'))
 
 print_banner()
