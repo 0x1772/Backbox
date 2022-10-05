@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-05T18:13:53.626Z" agent="5.0 (Windows)" etag="rw6C6J185nZFQppnBF02" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-05T18:20:11.913Z" agent="5.0 (Windows)" etag="jMTdTeutYhPS92NV7AXD" version="20.4.0" type="github">
   <diagram id="2jYxBzmRwSCk6wz8IAuE" name="Sayfa -1">
     <mxGraphModel dx="2473" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -13,7 +13,10 @@
         <mxCell id="LSUgu-cSKhSe0IuSakI0-3" value="IpLogger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LSUgu-cSKhSe0IuSakI0-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LSUgu-cSKhSe0IuSakI0-5" target="LSUgu-cSKhSe0IuSakI0-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-5" value="SocialPhisher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LSUgu-cSKhSe0IuSakI0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LSUgu-cSKhSe0IuSakI0-6" target="LSUgu-cSKhSe0IuSakI0-20">
@@ -206,7 +209,7 @@
           <mxGeometry x="14" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LSUgu-cSKhSe0IuSakI0-67" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;channels doesnt exist&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="374" y="710" width="80" height="80" as="geometry" />
+          <mxGeometry x="374" y="730" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LSUgu-cSKhSe0IuSakI0-69" value="&lt;div&gt;no&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="414" y="660" width="40" height="30" as="geometry" />
@@ -229,6 +232,30 @@
         </mxCell>
         <mxCell id="LSUgu-cSKhSe0IuSakI0-75" value="&lt;div&gt;&lt;b&gt;return home&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-310" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="810" as="sourcePoint" />
+            <mxPoint x="370" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="860" />
+              <mxPoint x="-210" y="860" />
+              <mxPoint x="-210" y="40" />
+              <mxPoint x="344" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-77" value="&lt;div&gt;&lt;b&gt;return home&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="860" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LSUgu-cSKhSe0IuSakI0-79" target="LSUgu-cSKhSe0IuSakI0-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-79" value="&lt;div&gt;clone script from github&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LSUgu-cSKhSe0IuSakI0-81" value="run script with sudo priviliges" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
