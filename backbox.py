@@ -11,6 +11,7 @@ import random
 import string
 import threading
 import re
+from turtle import home
 from unittest import result 
 
 ##banner function for Backbox
@@ -95,8 +96,9 @@ def ngrok_check_default():
     print(result)
     if result == 0:
         print("Plase install ngrok or open port for app")
+        return home
     else:
         print("Port is open. Everything looks fine...")
         os.system("sudo chmod +x core/ip_tracer")
         os.system("sudo ./ip_tracer")
-        
+        return home
