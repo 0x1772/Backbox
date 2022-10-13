@@ -12,7 +12,8 @@ import string
 import threading
 import re
 from turtle import home
-from unittest import result 
+from unittest import result
+from wsgiref import simple_server 
 
 ##banner function for Backbox
 def print_banner(ver, exp_cnt):
@@ -101,4 +102,39 @@ def ngrok_check_default():
         print("Port is open. Everything looks fine...")
         os.system("sudo chmod +x core/ip_tracer")
         os.system("sudo ./ip_tracer")
-        return home
+        return home,
+          
+from string import ascii_letters
+
+def get_name():
+    name = input("What is your name?\n: ").strip().title()
+
+    while not all(letter in ascii_letters + " -" for letter in name):
+        name = input("Please enter a valid name.\n: ").strip().title()
+
+    return name
+
+
+def get_name():
+    name = input("What is your name?\n: ").strip().title()
+
+    while not (name.replace("-", "") and
+               name.replace("-", "").replace(" ", "").isalpha()):
+        name = input("Please enter a valid name.\n: ").strip().title()
+
+    return name
+
+
+name = get_name().title()
+
+print("You said your name was " + name + ".)
+
+
+
+###hashcode
+def hash_cracker_installation():
+    hashcode1 = input("Please enter your hash for bruteforce")
+    os.system("go mod init hashcracker")
+    os.system("go build -o hashcracker")
+    os.system("make install")
+    os.system("./hashcracker -hash", hashcode1)
