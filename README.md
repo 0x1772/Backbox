@@ -70,6 +70,9 @@ Instructions on how to use them in your own application are linked below.
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
+## Algorithm
+![Algorithm](https://raw.githubusercontent.com/0x1772/Backbox/master/Backbox.drawio.png)
+
 ### Tools
 
 ![](https://img.shields.io/badge/Tool-VisualStudioCode-informational?style=flat&logo=<TOOL>&logoColor=white&color=ff2300)
