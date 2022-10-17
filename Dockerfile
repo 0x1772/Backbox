@@ -28,6 +28,11 @@ RUN apt-get install -y \
   python3 \
   npm \
   nautilus \
+  go \
+  openvpn \
+  network-manager \
+  bb \
+  xterm \
 
 RUN wget -O rapidscan.py https://raw.githubusercontent.com/FakeSmileUX/VulScanner/master/vulscanner.py && chmod +x vulscanner.py
 RUN ln -s /vulscanner/vulscanner.py /usr/local/bin/rapidscan
